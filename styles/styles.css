@@ -90,7 +90,7 @@ header nav a {
 }
 
 .heading-box {
-  border: solid;
+  
   margin-left: 40%;
   text-align: center;
   padding: 0 5%;
@@ -103,7 +103,7 @@ header nav a {
 
 #about div {
   border: solid;
-  padding: 8% 15%;
+  padding: 6% 8%;
   text-align: left;
 }
 
@@ -128,8 +128,13 @@ section h2 {
   background-color: #6C5659;
 }
 #contact {
-  color: #EEEEEE;
-  background-color: rgb(106, 110, 56);
+  color: #6C0909;
+  /* background-color: rgb(106, 110, 56); */
+  background-image: url('../images/contact2.jpg');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
 }
 
 .product-container {
@@ -181,7 +186,7 @@ div.image {
 
   background-size: cover;
 }
-div.image.image1 {
+div.image1 {
  
   background-image: url("../images/product.jpg");
  }
@@ -193,6 +198,21 @@ div.image.image1 {
 div.image3 {
  
   background-image: url("../images/product3.jpg");
+ 
+}
+div.image4 {
+ 
+  background-image: url("../images/product4.jpg");
+ 
+}
+div.image5 {
+ 
+  background-image: url("../images/product5.jpg");
+ 
+}
+div.image6 {
+ 
+  background-image: url("../images/product6.jpg");
  
 }
 footer p{
