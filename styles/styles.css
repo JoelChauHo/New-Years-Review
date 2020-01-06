@@ -103,9 +103,15 @@ header nav a {
 
 #about div {
   border: solid;
-  padding: 8% 20%;
-  text-align: center;
+  padding: 8% 15%;
+  text-align: left;
 }
+
+#about div p::first-letter{
+  font-size: 120%;
+  text-align: left;
+}
+
 
 section h2 {
   padding: 2%;
@@ -131,13 +137,14 @@ section h2 {
   border: solid;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+ /* justify-content: space-between; */
 }
 
 .product-item {
   width: 30%;
   margin: 1%;
   display: flex;
+ 
   flex-direction: column;
   align-items: center;
 }
@@ -150,8 +157,22 @@ section h2 {
 div.image {
   width: 200px;
   height: 200px;
-  background-image: url("../images/product.jpg");
+  
   background-size: cover;
+}
+div.image.image1 {
+ 
+  background-image: url("../images/product.jpg");
+ }
+ div.image2 {
+ 
+  background-image: url("../images/product2.jpg");
+ 
+}
+div.image3 {
+ 
+  background-image: url("../images/product3.jpg");
+ 
 }
 
 @media (max-width: 750px ) {
@@ -164,6 +185,7 @@ div.image {
     height: 150px;
   }
 }
+
 
 @media( max-width: 650px ) {
   header {
@@ -181,5 +203,18 @@ div.image {
   div.image {
     width: 200px;
     height: 200px;
+  }
+}
+
+@media (max-width: 300px ) {
+  h1 {
+    font-size: 3rem;
+  }
+  .product-item {
+    width: 80%;
+  }
+  div.image {
+    width: 150px;
+    height: 150px;
   }
 }
