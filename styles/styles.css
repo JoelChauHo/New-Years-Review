@@ -137,6 +137,32 @@ section h2 {
   
 }
 
+.product-container1 {
+  
+ 
+}
+.flex-container-c{
+  display: flex;
+  flex-direction: column;
+}
+.flex-container-r{
+  display: flex;
+  
+}
+.flex-l-item{
+  display: flex;
+  
+}
+.flex-r-item{
+  display: flex;
+  
+ margin-left: 99%; 
+}
+
+flex-container-r{
+  border:solid;
+}
+
 .product-container {
   padding: 2% 5%;
   border: solid;
@@ -229,6 +255,11 @@ footer p{
   div.image {
     width: 150px;
     height: 150px;
+  }
+  .flex-r-item{
+    display: flex;
+    
+   margin-left: 98%; 
   }
 }
 
